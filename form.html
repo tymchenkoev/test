@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="index.html">Перейти на главную страницу</a>
+    <form action="" method="get">
+        <p>
+            Логин <input type="text" name="login" placeholder="email@mail.ru" required>
+        </p>
+        <p>
+            Пароль <input type="password" name="pass">
+        </p>
+        <h3>Ваши интересы</h3>
+        <label><input type="checkbox" name="interess" value="music"> Музыка</label>
+        <input type="checkbox" name="interess" value="sport" id="sport"><label for="sport">Спорт</label>
+        <input type="checkbox" name="interess" value="programming" checked> Программирование
+        <hr>
+        <h3>Род деятельности</h3>
+        <input type="radio" name="working" value="work"> Работаю
+        <input type="radio" name="working" value="no-work"> Не работаю
+        <input type="radio" name="working" value="study"> Учусь
+        <hr>
+        <h3>Ваш город</h3>
+        <select name="city">
+            <option value="tyumen">Тюмень</option>
+            <option value="moscow">Москва</option>
+            <option value="surgut">Сургут</option>
+        </select>
+        <h3>Комментарий</h3>
+        <p>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="отправить">
+            <button type="reset">очистить форму</button>
+        </p>
+    </form>
+    <form action="">
+        <h3>Оставьте ваши контакты</h3>
+        <p>
+        <p>
+            Имя<input type="text" name="username"><br>
+        </p>
+        <p>
+            Телефон<input type="tel" name="number"><br>
+        </p>
+        <p>
+            Почта<input type="text" name="login" placeholder="email@mail.ru" required><br>
+        </p>
+        <input type="submit" value="отправить"><br>
+        <button type="reset">очистить форму</button>
+
+        </p>
+    </form>
+</body>
+
+</html>

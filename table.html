@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href="index.html">Перейти на главную</a>
+    <table class="table">
+        <caption>Заголовок таблицы</caption>
+        <tr>
+            <th>
+                Заглавная ячейка 1
+            </th>
+            <th>
+                Заглавная ячейка 2
+            </th>
+            <th>
+                Заглавная ячейка 3
+            </th>
+        </tr>
+        <tr>
+            <td>
+                ячейка 1
+            </td>
+            <td>
+                ячейка 2
+            </td>
+            <td>
+                ячейка 3
+
+            </td>
+        </tr>
+    </table>
+    <table class="table">
+        <caption>Расписание уроков</caption>
+        <thead>
+            <tr class="green-text">
+            
+            <th>
+                № п/п
+
+            </th>
+            <th>
+                Понедельник
+            </th>
+            <th>
+                Вторник
+            </th>
+            <th>
+                Среда
+            </th>
+            <th>
+                Четверг
+            </th>
+            <th>
+                Пятница
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="6" class="subtitle">1 четверть</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="2">Математика</td>
+                <td>Информатика</td>
+                <td>Информатика</td>
+                <td>География</td>
+                <td>Русский</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Русский</td>
+                <td>ОБЖ</td>
+                <td>Литература</td>
+                <td>Физ-ра</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ОБЖ</td>
+                <td>Русский</td>
+                <td>Русский</td>
+                <td>Литература</td>
+                <td>Математика</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td colspan="6" class="subtitle">2 четверть</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Математика</td>
+                <td>Русский</td>
+                <td>Информатика</td>
+                <td>География</td>
+                <td>Русский</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="active">Русский</td>
+                <td>ОБЖ</td>
+                <td>Литература</td>
+                <td>Физ-ра</td>
+                <td>Физ-ра</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ОБЖ</td>
+                <td>Русский</td>
+                <td>Русский</td>
+                <td>Литература</td>
+                <td>Математика</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Всего уроков за полугодие</td>
+                <td>30</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>

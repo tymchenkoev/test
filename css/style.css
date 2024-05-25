@@ -1,0 +1,37 @@
+* {
+color: red;
+}
+ul {
+     background-color: green;
+}
+
+#poem {
+    color: red;
+}
+
+.subtitle {
+   text-transform: uppercase;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+td, 
+th {
+    border: 1px solid black;
+    text-align:center;
+}
+
+td.active {
+    background-color: chocolate;
+    color: white;
+}
+
+.table thead {
+    background-color: bisque;
+}
+
+.list>li {
+background-color: white;
+}
